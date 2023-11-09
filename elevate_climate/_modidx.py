@@ -5,4 +5,12 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://BrandonChiazza.github.io',
                 'git_url': 'https://github.com/BrandonChiazza/elevate-climate',
                 'lib_path': 'elevate_climate'},
-  'syms': {'elevate_climate.core': {'elevate_climate.core.foo': ('core.html#foo', 'elevate_climate/core.py')}}}
+  'syms': { 'elevate_climate.core': {'elevate_climate.core.foo': ('core.html#foo', 'elevate_climate/core.py')},
+            'elevate_climate.elevate-climate-app': { 'elevate_climate.elevate-climate-app.clean_price': ( 'economic-analysis-carb-allowance-prices.html#clean_price',
+                                                                                                          'elevate_climate/elevate-climate-app.py'),
+                                                     'elevate_climate.elevate-climate-app.interactive_visualization': ( 'economic-analysis-carb-allowance-prices.html#interactive_visualization',
+                                                                                                                        'elevate_climate/elevate-climate-app.py'),
+                                                     'elevate_climate.elevate-climate-app.project_future_prices': ( 'economic-analysis-carb-allowance-prices.html#project_future_prices',
+                                                                                                                    'elevate_climate/elevate-climate-app.py'),
+                                                     'elevate_climate.elevate-climate-app.visualize_scenarios_with_bands': ( 'economic-analysis-carb-allowance-prices.html#visualize_scenarios_with_bands',
+                                                                                                                             'elevate_climate/elevate-climate-app.py')}}}
