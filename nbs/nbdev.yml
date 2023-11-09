@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "elevate-climate"
+  site-url: "https://BrandonChiazza.github.io/elevate-climate"
+  description: "elevate climate git hub repo"
+  repo-branch: main
+  repo-url: "https://github.com/BrandonChiazza/elevate-climate"
